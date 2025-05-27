@@ -33,6 +33,10 @@ void Vertex::add_edge(int to, int weight) {
     this->edges.push_back(new Edge(to, weight));
 }
 
+void Vertex::add_edge(Edge& edge) {
+    this->edges.push_back(&edge);
+}
+
 void Vertex::remove_edge(int to) {
     Edge* toRemove = this->get_edge(to);
 
@@ -48,6 +52,15 @@ void Vertex::update_edge_weight(int to, int weight) {
 std::string Vertex::to_string() {
     std::ostringstream oss;
     oss << "[Vertex: (id=" << this->id << ", x=" << this->x << ", y=" << this->y << ", edges=" << this->edges.size() << ")]";
+    return oss.str();
+}
+
+std::string Vertex::to_string_detailed() {
+    std::ostringstream oss;
+    oss << "[Vertex: (id=" << this->id << ", x=" << this->x << ", y=" << this->y << ", edges=" << this->edges.size() << ")]\n";
+    for (Edge* e : this->edges) {
+        oss << "-> " << e->to_string() << "\n";
+    }
     return oss.str();
 }
 
@@ -68,6 +81,10 @@ Vertex* Graph::get_vertex(int id) {
 
 void Graph::add_vertex(int id, int x, int y) {
     this->vertices.push_back(new Vertex(id, x, y));
+}
+
+void Graph::add_vertex(Vertex& vertex) {
+    this->vertices.push_back(&vertex);
 }
 
 void Graph::remove_vertex(int id) {
@@ -93,6 +110,15 @@ void Graph::remove_vertex(int id) {
 std::string Graph::to_string() {
     std::ostringstream oss;
     oss << "[Graph: (vertices=" << this->vertices.size() << ")]";
+    return oss.str();
+}
+
+std::string Graph::to_string_detailed() {
+    std::ostringstream oss;
+    oss << "[Graph: (vertices=" << this->vertices.size() << ")]";
+    for (Vertex* v : this->vertices) {
+        oss << "-> " << v->to_string_detailed();
+    }
     return oss.str();
 }
 

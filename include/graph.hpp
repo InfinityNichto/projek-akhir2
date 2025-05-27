@@ -20,9 +20,11 @@ struct Vertex {
     Vertex(int id, int x, int y);
     Edge* get_edge(int to);
     void add_edge(int to, int weight);
+    void add_edge(Edge& edge);
     void remove_edge(int to);
     void update_edge_weight(int to, int weight);
     std::string to_string();
+    std::string to_string_detailed();
 
     ~Vertex();
 };
@@ -32,8 +34,10 @@ struct Graph {
 
     Vertex* get_vertex(int id);
     void add_vertex(int id, int x, int y);
+    void add_vertex(Vertex& vertex);
     void remove_vertex(int id);
     std::string to_string();
+    std::string to_string_detailed();
 
     ~Graph();
 };

@@ -129,6 +129,198 @@ projek-akhir2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/build
 .PHONY : projek-akhir2/fast
 
+glad/src/glad.o: glad/src/glad.c.o
+.PHONY : glad/src/glad.o
+
+# target to build an object file
+glad/src/glad.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/glad/src/glad.c.o
+.PHONY : glad/src/glad.c.o
+
+glad/src/glad.i: glad/src/glad.c.i
+.PHONY : glad/src/glad.i
+
+# target to preprocess a source file
+glad/src/glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/glad/src/glad.c.i
+.PHONY : glad/src/glad.c.i
+
+glad/src/glad.s: glad/src/glad.c.s
+.PHONY : glad/src/glad.s
+
+# target to generate assembly for a file
+glad/src/glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/glad/src/glad.c.s
+.PHONY : glad/src/glad.c.s
+
+imgui/backends/imgui_impl_glfw.o: imgui/backends/imgui_impl_glfw.cpp.o
+.PHONY : imgui/backends/imgui_impl_glfw.o
+
+# target to build an object file
+imgui/backends/imgui_impl_glfw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_glfw.cpp.o
+.PHONY : imgui/backends/imgui_impl_glfw.cpp.o
+
+imgui/backends/imgui_impl_glfw.i: imgui/backends/imgui_impl_glfw.cpp.i
+.PHONY : imgui/backends/imgui_impl_glfw.i
+
+# target to preprocess a source file
+imgui/backends/imgui_impl_glfw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_glfw.cpp.i
+.PHONY : imgui/backends/imgui_impl_glfw.cpp.i
+
+imgui/backends/imgui_impl_glfw.s: imgui/backends/imgui_impl_glfw.cpp.s
+.PHONY : imgui/backends/imgui_impl_glfw.s
+
+# target to generate assembly for a file
+imgui/backends/imgui_impl_glfw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_glfw.cpp.s
+.PHONY : imgui/backends/imgui_impl_glfw.cpp.s
+
+imgui/backends/imgui_impl_opengl3.o: imgui/backends/imgui_impl_opengl3.cpp.o
+.PHONY : imgui/backends/imgui_impl_opengl3.o
+
+# target to build an object file
+imgui/backends/imgui_impl_opengl3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_opengl3.cpp.o
+.PHONY : imgui/backends/imgui_impl_opengl3.cpp.o
+
+imgui/backends/imgui_impl_opengl3.i: imgui/backends/imgui_impl_opengl3.cpp.i
+.PHONY : imgui/backends/imgui_impl_opengl3.i
+
+# target to preprocess a source file
+imgui/backends/imgui_impl_opengl3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_opengl3.cpp.i
+.PHONY : imgui/backends/imgui_impl_opengl3.cpp.i
+
+imgui/backends/imgui_impl_opengl3.s: imgui/backends/imgui_impl_opengl3.cpp.s
+.PHONY : imgui/backends/imgui_impl_opengl3.s
+
+# target to generate assembly for a file
+imgui/backends/imgui_impl_opengl3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_opengl3.cpp.s
+.PHONY : imgui/backends/imgui_impl_opengl3.cpp.s
+
+imgui/imgui.o: imgui/imgui.cpp.o
+.PHONY : imgui/imgui.o
+
+# target to build an object file
+imgui/imgui.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/imgui/imgui.cpp.o
+.PHONY : imgui/imgui.cpp.o
+
+imgui/imgui.i: imgui/imgui.cpp.i
+.PHONY : imgui/imgui.i
+
+# target to preprocess a source file
+imgui/imgui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/imgui/imgui.cpp.i
+.PHONY : imgui/imgui.cpp.i
+
+imgui/imgui.s: imgui/imgui.cpp.s
+.PHONY : imgui/imgui.s
+
+# target to generate assembly for a file
+imgui/imgui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/imgui/imgui.cpp.s
+.PHONY : imgui/imgui.cpp.s
+
+imgui/imgui_demo.o: imgui/imgui_demo.cpp.o
+.PHONY : imgui/imgui_demo.o
+
+# target to build an object file
+imgui/imgui_demo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/imgui/imgui_demo.cpp.o
+.PHONY : imgui/imgui_demo.cpp.o
+
+imgui/imgui_demo.i: imgui/imgui_demo.cpp.i
+.PHONY : imgui/imgui_demo.i
+
+# target to preprocess a source file
+imgui/imgui_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/imgui/imgui_demo.cpp.i
+.PHONY : imgui/imgui_demo.cpp.i
+
+imgui/imgui_demo.s: imgui/imgui_demo.cpp.s
+.PHONY : imgui/imgui_demo.s
+
+# target to generate assembly for a file
+imgui/imgui_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/imgui/imgui_demo.cpp.s
+.PHONY : imgui/imgui_demo.cpp.s
+
+imgui/imgui_draw.o: imgui/imgui_draw.cpp.o
+.PHONY : imgui/imgui_draw.o
+
+# target to build an object file
+imgui/imgui_draw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/imgui/imgui_draw.cpp.o
+.PHONY : imgui/imgui_draw.cpp.o
+
+imgui/imgui_draw.i: imgui/imgui_draw.cpp.i
+.PHONY : imgui/imgui_draw.i
+
+# target to preprocess a source file
+imgui/imgui_draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/imgui/imgui_draw.cpp.i
+.PHONY : imgui/imgui_draw.cpp.i
+
+imgui/imgui_draw.s: imgui/imgui_draw.cpp.s
+.PHONY : imgui/imgui_draw.s
+
+# target to generate assembly for a file
+imgui/imgui_draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/imgui/imgui_draw.cpp.s
+.PHONY : imgui/imgui_draw.cpp.s
+
+imgui/imgui_tables.o: imgui/imgui_tables.cpp.o
+.PHONY : imgui/imgui_tables.o
+
+# target to build an object file
+imgui/imgui_tables.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/imgui/imgui_tables.cpp.o
+.PHONY : imgui/imgui_tables.cpp.o
+
+imgui/imgui_tables.i: imgui/imgui_tables.cpp.i
+.PHONY : imgui/imgui_tables.i
+
+# target to preprocess a source file
+imgui/imgui_tables.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/imgui/imgui_tables.cpp.i
+.PHONY : imgui/imgui_tables.cpp.i
+
+imgui/imgui_tables.s: imgui/imgui_tables.cpp.s
+.PHONY : imgui/imgui_tables.s
+
+# target to generate assembly for a file
+imgui/imgui_tables.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/imgui/imgui_tables.cpp.s
+.PHONY : imgui/imgui_tables.cpp.s
+
+imgui/imgui_widgets.o: imgui/imgui_widgets.cpp.o
+.PHONY : imgui/imgui_widgets.o
+
+# target to build an object file
+imgui/imgui_widgets.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/imgui/imgui_widgets.cpp.o
+.PHONY : imgui/imgui_widgets.cpp.o
+
+imgui/imgui_widgets.i: imgui/imgui_widgets.cpp.i
+.PHONY : imgui/imgui_widgets.i
+
+# target to preprocess a source file
+imgui/imgui_widgets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/imgui/imgui_widgets.cpp.i
+.PHONY : imgui/imgui_widgets.cpp.i
+
+imgui/imgui_widgets.s: imgui/imgui_widgets.cpp.s
+.PHONY : imgui/imgui_widgets.s
+
+# target to generate assembly for a file
+imgui/imgui_widgets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/imgui/imgui_widgets.cpp.s
+.PHONY : imgui/imgui_widgets.cpp.s
+
 src/graph.o: src/graph.cpp.o
 .PHONY : src/graph.o
 
@@ -152,6 +344,30 @@ src/graph.s: src/graph.cpp.s
 src/graph.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/src/graph.cpp.s
 .PHONY : src/graph.cpp.s
+
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 src/program.o: src/program.cpp.o
 .PHONY : src/program.o
@@ -177,6 +393,30 @@ src/program.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/src/program.cpp.s
 .PHONY : src/program.cpp.s
 
+src/utils.o: src/utils.cpp.o
+.PHONY : src/utils.o
+
+# target to build an object file
+src/utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/src/utils.cpp.o
+.PHONY : src/utils.cpp.o
+
+src/utils.i: src/utils.cpp.i
+.PHONY : src/utils.i
+
+# target to preprocess a source file
+src/utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/src/utils.cpp.i
+.PHONY : src/utils.cpp.i
+
+src/utils.s: src/utils.cpp.s
+.PHONY : src/utils.s
+
+# target to generate assembly for a file
+src/utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/src/utils.cpp.s
+.PHONY : src/utils.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +426,42 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... projek-akhir2"
+	@echo "... glad/src/glad.o"
+	@echo "... glad/src/glad.i"
+	@echo "... glad/src/glad.s"
+	@echo "... imgui/backends/imgui_impl_glfw.o"
+	@echo "... imgui/backends/imgui_impl_glfw.i"
+	@echo "... imgui/backends/imgui_impl_glfw.s"
+	@echo "... imgui/backends/imgui_impl_opengl3.o"
+	@echo "... imgui/backends/imgui_impl_opengl3.i"
+	@echo "... imgui/backends/imgui_impl_opengl3.s"
+	@echo "... imgui/imgui.o"
+	@echo "... imgui/imgui.i"
+	@echo "... imgui/imgui.s"
+	@echo "... imgui/imgui_demo.o"
+	@echo "... imgui/imgui_demo.i"
+	@echo "... imgui/imgui_demo.s"
+	@echo "... imgui/imgui_draw.o"
+	@echo "... imgui/imgui_draw.i"
+	@echo "... imgui/imgui_draw.s"
+	@echo "... imgui/imgui_tables.o"
+	@echo "... imgui/imgui_tables.i"
+	@echo "... imgui/imgui_tables.s"
+	@echo "... imgui/imgui_widgets.o"
+	@echo "... imgui/imgui_widgets.i"
+	@echo "... imgui/imgui_widgets.s"
 	@echo "... src/graph.o"
 	@echo "... src/graph.i"
 	@echo "... src/graph.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 	@echo "... src/program.o"
 	@echo "... src/program.i"
 	@echo "... src/program.s"
+	@echo "... src/utils.o"
+	@echo "... src/utils.i"
+	@echo "... src/utils.s"
 .PHONY : help
 
 

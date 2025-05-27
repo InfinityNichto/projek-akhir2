@@ -86,10 +86,24 @@ CMakeFiles/projek-akhir2.dir/src/graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projek-akhir2.dir/src/graph.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/src/graph.cpp -o CMakeFiles/projek-akhir2.dir/src/graph.cpp.s
 
+CMakeFiles/projek-akhir2.dir/src/main.cpp.o: CMakeFiles/projek-akhir2.dir/flags.make
+CMakeFiles/projek-akhir2.dir/src/main.cpp.o: /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/src/main.cpp
+CMakeFiles/projek-akhir2.dir/src/main.cpp.o: CMakeFiles/projek-akhir2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/projek-akhir2.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projek-akhir2.dir/src/main.cpp.o -MF CMakeFiles/projek-akhir2.dir/src/main.cpp.o.d -o CMakeFiles/projek-akhir2.dir/src/main.cpp.o -c /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/src/main.cpp
+
+CMakeFiles/projek-akhir2.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/projek-akhir2.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/src/main.cpp > CMakeFiles/projek-akhir2.dir/src/main.cpp.i
+
+CMakeFiles/projek-akhir2.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projek-akhir2.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/src/main.cpp -o CMakeFiles/projek-akhir2.dir/src/main.cpp.s
+
 CMakeFiles/projek-akhir2.dir/src/program.cpp.o: CMakeFiles/projek-akhir2.dir/flags.make
 CMakeFiles/projek-akhir2.dir/src/program.cpp.o: /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/src/program.cpp
 CMakeFiles/projek-akhir2.dir/src/program.cpp.o: CMakeFiles/projek-akhir2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/projek-akhir2.dir/src/program.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/projek-akhir2.dir/src/program.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projek-akhir2.dir/src/program.cpp.o -MF CMakeFiles/projek-akhir2.dir/src/program.cpp.o.d -o CMakeFiles/projek-akhir2.dir/src/program.cpp.o -c /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/src/program.cpp
 
 CMakeFiles/projek-akhir2.dir/src/program.cpp.i: cmake_force
@@ -100,20 +114,169 @@ CMakeFiles/projek-akhir2.dir/src/program.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projek-akhir2.dir/src/program.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/src/program.cpp -o CMakeFiles/projek-akhir2.dir/src/program.cpp.s
 
+CMakeFiles/projek-akhir2.dir/src/utils.cpp.o: CMakeFiles/projek-akhir2.dir/flags.make
+CMakeFiles/projek-akhir2.dir/src/utils.cpp.o: /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/src/utils.cpp
+CMakeFiles/projek-akhir2.dir/src/utils.cpp.o: CMakeFiles/projek-akhir2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/projek-akhir2.dir/src/utils.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projek-akhir2.dir/src/utils.cpp.o -MF CMakeFiles/projek-akhir2.dir/src/utils.cpp.o.d -o CMakeFiles/projek-akhir2.dir/src/utils.cpp.o -c /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/src/utils.cpp
+
+CMakeFiles/projek-akhir2.dir/src/utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/projek-akhir2.dir/src/utils.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/src/utils.cpp > CMakeFiles/projek-akhir2.dir/src/utils.cpp.i
+
+CMakeFiles/projek-akhir2.dir/src/utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projek-akhir2.dir/src/utils.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/src/utils.cpp -o CMakeFiles/projek-akhir2.dir/src/utils.cpp.s
+
+CMakeFiles/projek-akhir2.dir/imgui/imgui.cpp.o: CMakeFiles/projek-akhir2.dir/flags.make
+CMakeFiles/projek-akhir2.dir/imgui/imgui.cpp.o: /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/imgui/imgui.cpp
+CMakeFiles/projek-akhir2.dir/imgui/imgui.cpp.o: CMakeFiles/projek-akhir2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/projek-akhir2.dir/imgui/imgui.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projek-akhir2.dir/imgui/imgui.cpp.o -MF CMakeFiles/projek-akhir2.dir/imgui/imgui.cpp.o.d -o CMakeFiles/projek-akhir2.dir/imgui/imgui.cpp.o -c /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/imgui/imgui.cpp
+
+CMakeFiles/projek-akhir2.dir/imgui/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/projek-akhir2.dir/imgui/imgui.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/imgui/imgui.cpp > CMakeFiles/projek-akhir2.dir/imgui/imgui.cpp.i
+
+CMakeFiles/projek-akhir2.dir/imgui/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projek-akhir2.dir/imgui/imgui.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/imgui/imgui.cpp -o CMakeFiles/projek-akhir2.dir/imgui/imgui.cpp.s
+
+CMakeFiles/projek-akhir2.dir/imgui/imgui_demo.cpp.o: CMakeFiles/projek-akhir2.dir/flags.make
+CMakeFiles/projek-akhir2.dir/imgui/imgui_demo.cpp.o: /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/imgui/imgui_demo.cpp
+CMakeFiles/projek-akhir2.dir/imgui/imgui_demo.cpp.o: CMakeFiles/projek-akhir2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/projek-akhir2.dir/imgui/imgui_demo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projek-akhir2.dir/imgui/imgui_demo.cpp.o -MF CMakeFiles/projek-akhir2.dir/imgui/imgui_demo.cpp.o.d -o CMakeFiles/projek-akhir2.dir/imgui/imgui_demo.cpp.o -c /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/imgui/imgui_demo.cpp
+
+CMakeFiles/projek-akhir2.dir/imgui/imgui_demo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/projek-akhir2.dir/imgui/imgui_demo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/imgui/imgui_demo.cpp > CMakeFiles/projek-akhir2.dir/imgui/imgui_demo.cpp.i
+
+CMakeFiles/projek-akhir2.dir/imgui/imgui_demo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projek-akhir2.dir/imgui/imgui_demo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/imgui/imgui_demo.cpp -o CMakeFiles/projek-akhir2.dir/imgui/imgui_demo.cpp.s
+
+CMakeFiles/projek-akhir2.dir/imgui/imgui_draw.cpp.o: CMakeFiles/projek-akhir2.dir/flags.make
+CMakeFiles/projek-akhir2.dir/imgui/imgui_draw.cpp.o: /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/imgui/imgui_draw.cpp
+CMakeFiles/projek-akhir2.dir/imgui/imgui_draw.cpp.o: CMakeFiles/projek-akhir2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/projek-akhir2.dir/imgui/imgui_draw.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projek-akhir2.dir/imgui/imgui_draw.cpp.o -MF CMakeFiles/projek-akhir2.dir/imgui/imgui_draw.cpp.o.d -o CMakeFiles/projek-akhir2.dir/imgui/imgui_draw.cpp.o -c /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/imgui/imgui_draw.cpp
+
+CMakeFiles/projek-akhir2.dir/imgui/imgui_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/projek-akhir2.dir/imgui/imgui_draw.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/imgui/imgui_draw.cpp > CMakeFiles/projek-akhir2.dir/imgui/imgui_draw.cpp.i
+
+CMakeFiles/projek-akhir2.dir/imgui/imgui_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projek-akhir2.dir/imgui/imgui_draw.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/imgui/imgui_draw.cpp -o CMakeFiles/projek-akhir2.dir/imgui/imgui_draw.cpp.s
+
+CMakeFiles/projek-akhir2.dir/imgui/imgui_tables.cpp.o: CMakeFiles/projek-akhir2.dir/flags.make
+CMakeFiles/projek-akhir2.dir/imgui/imgui_tables.cpp.o: /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/imgui/imgui_tables.cpp
+CMakeFiles/projek-akhir2.dir/imgui/imgui_tables.cpp.o: CMakeFiles/projek-akhir2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/projek-akhir2.dir/imgui/imgui_tables.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projek-akhir2.dir/imgui/imgui_tables.cpp.o -MF CMakeFiles/projek-akhir2.dir/imgui/imgui_tables.cpp.o.d -o CMakeFiles/projek-akhir2.dir/imgui/imgui_tables.cpp.o -c /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/imgui/imgui_tables.cpp
+
+CMakeFiles/projek-akhir2.dir/imgui/imgui_tables.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/projek-akhir2.dir/imgui/imgui_tables.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/imgui/imgui_tables.cpp > CMakeFiles/projek-akhir2.dir/imgui/imgui_tables.cpp.i
+
+CMakeFiles/projek-akhir2.dir/imgui/imgui_tables.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projek-akhir2.dir/imgui/imgui_tables.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/imgui/imgui_tables.cpp -o CMakeFiles/projek-akhir2.dir/imgui/imgui_tables.cpp.s
+
+CMakeFiles/projek-akhir2.dir/imgui/imgui_widgets.cpp.o: CMakeFiles/projek-akhir2.dir/flags.make
+CMakeFiles/projek-akhir2.dir/imgui/imgui_widgets.cpp.o: /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/imgui/imgui_widgets.cpp
+CMakeFiles/projek-akhir2.dir/imgui/imgui_widgets.cpp.o: CMakeFiles/projek-akhir2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/projek-akhir2.dir/imgui/imgui_widgets.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projek-akhir2.dir/imgui/imgui_widgets.cpp.o -MF CMakeFiles/projek-akhir2.dir/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/projek-akhir2.dir/imgui/imgui_widgets.cpp.o -c /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/imgui/imgui_widgets.cpp
+
+CMakeFiles/projek-akhir2.dir/imgui/imgui_widgets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/projek-akhir2.dir/imgui/imgui_widgets.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/imgui/imgui_widgets.cpp > CMakeFiles/projek-akhir2.dir/imgui/imgui_widgets.cpp.i
+
+CMakeFiles/projek-akhir2.dir/imgui/imgui_widgets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projek-akhir2.dir/imgui/imgui_widgets.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/imgui/imgui_widgets.cpp -o CMakeFiles/projek-akhir2.dir/imgui/imgui_widgets.cpp.s
+
+CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_glfw.cpp.o: CMakeFiles/projek-akhir2.dir/flags.make
+CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_glfw.cpp.o: /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/imgui/backends/imgui_impl_glfw.cpp
+CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_glfw.cpp.o: CMakeFiles/projek-akhir2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_glfw.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_glfw.cpp.o -MF CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_glfw.cpp.o.d -o CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_glfw.cpp.o -c /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/imgui/backends/imgui_impl_glfw.cpp
+
+CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_glfw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_glfw.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/imgui/backends/imgui_impl_glfw.cpp > CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_glfw.cpp.i
+
+CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_glfw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_glfw.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/imgui/backends/imgui_impl_glfw.cpp -o CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_glfw.cpp.s
+
+CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_opengl3.cpp.o: CMakeFiles/projek-akhir2.dir/flags.make
+CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_opengl3.cpp.o: /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/imgui/backends/imgui_impl_opengl3.cpp
+CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_opengl3.cpp.o: CMakeFiles/projek-akhir2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_opengl3.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_opengl3.cpp.o -MF CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_opengl3.cpp.o -c /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/imgui/backends/imgui_impl_opengl3.cpp
+
+CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_opengl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_opengl3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/imgui/backends/imgui_impl_opengl3.cpp > CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_opengl3.cpp.i
+
+CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_opengl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_opengl3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/imgui/backends/imgui_impl_opengl3.cpp -o CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_opengl3.cpp.s
+
+CMakeFiles/projek-akhir2.dir/glad/src/glad.c.o: CMakeFiles/projek-akhir2.dir/flags.make
+CMakeFiles/projek-akhir2.dir/glad/src/glad.c.o: /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/glad/src/glad.c
+CMakeFiles/projek-akhir2.dir/glad/src/glad.c.o: CMakeFiles/projek-akhir2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/projek-akhir2.dir/glad/src/glad.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/projek-akhir2.dir/glad/src/glad.c.o -MF CMakeFiles/projek-akhir2.dir/glad/src/glad.c.o.d -o CMakeFiles/projek-akhir2.dir/glad/src/glad.c.o -c /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/glad/src/glad.c
+
+CMakeFiles/projek-akhir2.dir/glad/src/glad.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/projek-akhir2.dir/glad/src/glad.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/glad/src/glad.c > CMakeFiles/projek-akhir2.dir/glad/src/glad.c.i
+
+CMakeFiles/projek-akhir2.dir/glad/src/glad.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/projek-akhir2.dir/glad/src/glad.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/glad/src/glad.c -o CMakeFiles/projek-akhir2.dir/glad/src/glad.c.s
+
 # Object files for target projek-akhir2
 projek__akhir2_OBJECTS = \
 "CMakeFiles/projek-akhir2.dir/src/graph.cpp.o" \
-"CMakeFiles/projek-akhir2.dir/src/program.cpp.o"
+"CMakeFiles/projek-akhir2.dir/src/main.cpp.o" \
+"CMakeFiles/projek-akhir2.dir/src/program.cpp.o" \
+"CMakeFiles/projek-akhir2.dir/src/utils.cpp.o" \
+"CMakeFiles/projek-akhir2.dir/imgui/imgui.cpp.o" \
+"CMakeFiles/projek-akhir2.dir/imgui/imgui_demo.cpp.o" \
+"CMakeFiles/projek-akhir2.dir/imgui/imgui_draw.cpp.o" \
+"CMakeFiles/projek-akhir2.dir/imgui/imgui_tables.cpp.o" \
+"CMakeFiles/projek-akhir2.dir/imgui/imgui_widgets.cpp.o" \
+"CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_glfw.cpp.o" \
+"CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_opengl3.cpp.o" \
+"CMakeFiles/projek-akhir2.dir/glad/src/glad.c.o"
 
 # External object files for target projek-akhir2
 projek__akhir2_EXTERNAL_OBJECTS =
 
 projek-akhir2: CMakeFiles/projek-akhir2.dir/src/graph.cpp.o
+projek-akhir2: CMakeFiles/projek-akhir2.dir/src/main.cpp.o
 projek-akhir2: CMakeFiles/projek-akhir2.dir/src/program.cpp.o
+projek-akhir2: CMakeFiles/projek-akhir2.dir/src/utils.cpp.o
+projek-akhir2: CMakeFiles/projek-akhir2.dir/imgui/imgui.cpp.o
+projek-akhir2: CMakeFiles/projek-akhir2.dir/imgui/imgui_demo.cpp.o
+projek-akhir2: CMakeFiles/projek-akhir2.dir/imgui/imgui_draw.cpp.o
+projek-akhir2: CMakeFiles/projek-akhir2.dir/imgui/imgui_tables.cpp.o
+projek-akhir2: CMakeFiles/projek-akhir2.dir/imgui/imgui_widgets.cpp.o
+projek-akhir2: CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_glfw.cpp.o
+projek-akhir2: CMakeFiles/projek-akhir2.dir/imgui/backends/imgui_impl_opengl3.cpp.o
+projek-akhir2: CMakeFiles/projek-akhir2.dir/glad/src/glad.c.o
 projek-akhir2: CMakeFiles/projek-akhir2.dir/build.make
 projek-akhir2: CMakeFiles/projek-akhir2.dir/compiler_depend.ts
+projek-akhir2: /usr/lib/libglfw.so.3.4
+projek-akhir2: /usr/lib/libGLX.so
+projek-akhir2: /usr/lib/libOpenGL.so
 projek-akhir2: CMakeFiles/projek-akhir2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable projek-akhir2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable projek-akhir2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/projek-akhir2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -85,12 +85,12 @@ clean: CMakeFiles/projek-akhir2.dir/clean
 CMakeFiles/projek-akhir2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/build/CMakeFiles --progress-num=1,2,3 "Built target projek-akhir2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target projek-akhir2"
 .PHONY : CMakeFiles/projek-akhir2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/projek-akhir2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/build/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/projek-akhir2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/build/CMakeFiles 0
 .PHONY : CMakeFiles/projek-akhir2.dir/rule
@@ -102,7 +102,7 @@ projek-akhir2: CMakeFiles/projek-akhir2.dir/rule
 # codegen rule for target.
 CMakeFiles/projek-akhir2.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/projek-akhir2.dir/build.make CMakeFiles/projek-akhir2.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target projek-akhir2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Finished codegen for target projek-akhir2"
 .PHONY : CMakeFiles/projek-akhir2.dir/codegen
 
 # clean rule for target.

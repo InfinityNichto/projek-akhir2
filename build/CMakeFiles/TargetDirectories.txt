@@ -1,3 +1,0 @@
-/home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/build/CMakeFiles/projek-akhir2.dir
-/home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/build/CMakeFiles/edit_cache.dir
-/home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/build/CMakeFiles/rebuild_cache.dir

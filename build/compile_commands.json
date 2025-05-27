@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/build",
+  "command": "/usr/bin/c++  -I/home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/./include -std=gnu++17 -o CMakeFiles/projek-akhir2.dir/src/graph.cpp.o -c /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/src/graph.cpp",
+  "file": "/home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/src/graph.cpp",
+  "output": "CMakeFiles/projek-akhir2.dir/src/graph.cpp.o"
+},
+{
+  "directory": "/home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/build",
+  "command": "/usr/bin/c++  -I/home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/./include -std=gnu++17 -o CMakeFiles/projek-akhir2.dir/src/program.cpp.o -c /home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/src/program.cpp",
+  "file": "/home/lisa/Downloads/dev/code/cpp/alpro/projek-akhir2/src/program.cpp",
+  "output": "CMakeFiles/projek-akhir2.dir/src/program.cpp.o"
+}
+]

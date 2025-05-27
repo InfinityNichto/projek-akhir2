@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/projek-akhir2.dir/link.d "CMakeFiles/projek-akhir2.dir/src/graph.cpp.o" "CMakeFiles/projek-akhir2.dir/src/program.cpp.o" -o projek-akhir2

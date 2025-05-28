@@ -131,9 +131,9 @@ void MenuItems::Help::do_about_window(bool* show) {
     ImGui::SetNextWindowPos(center, ImGuiCond_Appearing, ImVec2(0.5, 0.5));
     
 	if (ImGui::BeginPopupModal("About", NULL, ImGuiWindowFlags_AlwaysAutoResize)) {
-        GuiUtils::text_centered("Map App", 0);
+        GuiUtils::text_centered("Editor Graf dan Dijkstra", 0);
         ImGui::Separator();
-        ImGui::Text("Version: 5a78acd (build 507)");
+        ImGui::Text("Version: 4327f1f (build 139)");
         ImGui::Text("Source:"); ImGui::SameLine(); GuiUtils::hyperlink("InfinityNichto/projek-akhir2", "https://github.com/InfinityNichto/projek-akhir2");
         ImGui::Text("ImGui: v1.91.5");
         ImGui::Separator();

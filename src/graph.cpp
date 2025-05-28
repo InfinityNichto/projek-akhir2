@@ -1,3 +1,4 @@
+#include <math.h>
 #include <stdio.h>
 #include <stdint.h>
 #include <algorithm>
@@ -105,6 +106,100 @@ void Graph::remove_vertex(int id) {
 
     vertices.erase(std::remove(vertices.begin(), vertices.end(), toRemove), vertices.end());
     delete toRemove;
+}
+
+void Graph::remove_edge(Edge* edge) {
+    for (Vertex* v : this->vertices) {
+        auto& edges = v->edges;
+        auto it = std::find(edges.begin(), edges.end(), edge);
+        if (it != edges.end()) {
+            edges.erase(it);
+            delete edge;
+            return;
+        }
+    }
+}
+
+std::vector<int> Graph::dijkstra(int start, int end) {
+    std::vector<int> ids;
+    std::vector<int> dist;
+    std::vector<int> prev;
+    std::vector<bool> visited;
+
+    int n = vertices.size();
+    for (int i = 0; i < n; ++i) {
+        ids.push_back(vertices[i]->id);
+        dist.push_back(2147483647);
+        prev.push_back(-1);
+        visited.push_back(false);
+    }
+
+    int start_index = -1;
+    for (int i = 0; i < n; ++i) {
+        if (vertices[i]->id == start) {
+            dist[i] = 0;
+            start_index = i;
+            break;
+        }
+    }
+
+    while (true) {
+        int u_index = -1;
+        int min_dist = 2147483647;
+        for (int i = 0; i < n; ++i) {
+            if (!visited[i] && dist[i] < min_dist) {
+                min_dist = dist[i];
+                u_index = i;
+            }
+        }
+        if (u_index == -1) break;
+        visited[u_index] = true;
+
+        if (ids[u_index] == end) break;
+
+        Vertex* u = vertices[u_index];
+        for (int i = 0; i < u->edges.size(); ++i) {
+            Edge* edge = u->edges[i];
+            int v_id = edge->target;
+            int alt = dist[u_index] + edge->weight;
+
+            for (int j = 0; j < n; ++j) {
+                if (ids[j] == v_id && alt < dist[j]) {
+                    dist[j] = alt;
+                    prev[j] = u_index;
+                }
+            }
+        }
+    }
+
+    std::vector<int> path;
+    int end_index = -1;
+    for (int i = 0; i < n; ++i) {
+        if (ids[i] == end) {
+            end_index = i;
+            break;
+        }
+    }
+
+    int u = end_index;
+    while (u != -1) {
+        path.insert(path.begin(), ids[u]);
+        u = prev[u];
+    }
+
+    if (path.size() == 0 || path[0] != start) path.clear();
+    return path;
+}
+
+std::vector<Vertex*> Graph::dijkstra(Vertex* start, Vertex* end) {
+    std::vector<int> path = dijkstra(start->id, end->id);
+    std::vector<Vertex*> vertices_path = { };
+
+    for (int id : path) {
+        vertices_path.push_back(this->get_vertex(id));
+    }
+
+    return vertices_path;
 }
 
 std::string Graph::to_string() {

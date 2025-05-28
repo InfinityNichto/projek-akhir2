@@ -1,18 +1,16 @@
 #include "imgui.h"
-#include "imgui_internal.h"
 #include "backends/imgui_impl_glfw.h"
 #include "backends/imgui_impl_opengl3.h"
 #include <glad/glad.h>
+#include <gui_vars.hpp>
 #include <program.hpp>
 #include <graph.hpp>
 #include <utils.hpp>
+#include <gui/nav_bar.hpp>
 #include <stdio.h>
 
-#define GL_WINDOW_SIZE 1280
-#define GL_WINDOW_HEIGHT 720
-
-GLFWwindow* glfw_window;
-void RenderGraphVisualizer(Graph* graph);
+#define GL_WINDOW_WIDTH 1344
+#define GL_WINDOW_HEIGHT 744
 
 void opengl_setup() {
     if (!glfwInit()) {
@@ -21,19 +19,19 @@ void opengl_setup() {
     }
 
 	glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);
-    glfw_window = glfwCreateWindow(GL_WINDOW_SIZE, GL_WINDOW_HEIGHT, "TITLEEEE - Powered by OpenGL3 + GLFW | <Esc> to exit", NULL, NULL);
-    if (!glfw_window) {
+    GuiVars::glfw_window = glfwCreateWindow(GL_WINDOW_WIDTH, GL_WINDOW_HEIGHT, "TITLEEEE - Powered by OpenGL3 + GLFW | <Esc> to exit", NULL, NULL);
+    if (!GuiVars::glfw_window) {
         glfwTerminate();
         fprintf(stderr, "opengl error: window creation failed\n");
         return;
     }
 
-    glfwMakeContextCurrent(glfw_window);
+    glfwMakeContextCurrent(GuiVars::glfw_window);
 	glfwSwapInterval(1);
 
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
         fprintf(stderr, "opengl error: glad loader init failed");
-        glfwDestroyWindow(glfw_window);
+        glfwDestroyWindow(GuiVars::glfw_window);
         glfwTerminate();
 		return;
     }
@@ -43,9 +41,10 @@ void imgui_setup() {
     IMGUI_CHECKVERSION();
     ImGui::CreateContext();
 
-    ImGui_ImplGlfw_InitForOpenGL(glfw_window, true);
+    ImGui_ImplGlfw_InitForOpenGL(GuiVars::glfw_window, true);
     ImGui_ImplOpenGL3_Init("#version 130");
 
+    GuiVars::init_imgui_stats();
 	imgui_style();
 }
 
@@ -118,13 +117,16 @@ void imgui_style() {
 }
 
 void main_loop() {
-    while (!glfwWindowShouldClose(glfw_window)) {
+    while (!glfwWindowShouldClose(GuiVars::glfw_window)) {
         glfwPollEvents();
-		if (glfwGetKey(glfw_window, GLFW_KEY_ESCAPE) == GLFW_PRESS) break;
+		if (glfwGetKey(GuiVars::glfw_window, GLFW_KEY_ESCAPE) == GLFW_PRESS) break;
 
         ImGui_ImplOpenGL3_NewFrame();
         ImGui_ImplGlfw_NewFrame();
         ImGui::NewFrame();
+
+        GuiVars::update_imgui_stats();
+        NavBar::draw_window();
 
         ImGui::Render();
         glViewport(0, 0, 1280, 720);
@@ -133,7 +135,7 @@ void main_loop() {
         glClear(GL_COLOR_BUFFER_BIT);
         ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
 
-        glfwSwapBuffers(glfw_window);
+        glfwSwapBuffers(GuiVars::glfw_window);
     }
 }
 
@@ -142,7 +144,7 @@ void finalize() {
     ImGui_ImplGlfw_Shutdown();
     ImGui::DestroyContext();
 
-    glfwDestroyWindow(glfw_window);
+    glfwDestroyWindow(GuiVars::glfw_window);
     glfwTerminate();
 }
 

@@ -19,7 +19,7 @@ void opengl_setup() {
     }
 
 	glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);
-    GuiVars::glfw_window = glfwCreateWindow(GL_WINDOW_WIDTH, GL_WINDOW_HEIGHT, "TITLEEEE - Powered by OpenGL3 + GLFW | <Esc> to exit", NULL, NULL);
+    GuiVars::glfw_window = glfwCreateWindow(GL_WINDOW_WIDTH, GL_WINDOW_HEIGHT, "Projek Akhir - Powered by OpenGL3 + GLFW | <Esc> to exit", NULL, NULL);
     if (!GuiVars::glfw_window) {
         glfwTerminate();
         fprintf(stderr, "opengl error: window creation failed\n");

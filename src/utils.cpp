@@ -4,36 +4,50 @@
 #include <utils.hpp>
 
 Graph* Utils::generate_random_graph(int num_vertices, int num_edges, int min_x, int max_x, int min_y, int max_y) {
-    std::vector<int> built_vertices = {};
-    int current_vertex = next_int(0, 2147483647);
+    std::vector<int> built_vertices;
+    std::vector<Vertex*> vertex_list;
     Graph* graph = new Graph();
 
-    for (int i = 0; i < num_vertices; i++) {
-        while (Utils::vector_contains(built_vertices, current_vertex)) {
-            current_vertex = next_int(0, 2147483647);
+    while ((int)built_vertices.size() < num_vertices) {
+        int id = next_int(0, 2147483647);
+        if (!Utils::vector_contains(built_vertices, id)) {
+            built_vertices.push_back(id);
+            int x = next_int(min_x, max_x);
+            int y = next_int(min_y, max_y);
+            Vertex* v = new Vertex(id, x, y);
+            vertex_list.push_back(v);
+            graph->add_vertex(*v);
         }
-        built_vertices.push_back(current_vertex);
+    }
 
-        int x = next_int(min_x, max_x);
-        int y = next_int(min_y, max_y);
-        Vertex* new_vertex = new Vertex(current_vertex, x, y);
-        graph->add_vertex(*new_vertex);
+    for (int i = 0; i < num_vertices - 1; i++) {
+        Vertex* from = vertex_list[i];
+        Vertex* to = vertex_list[i + 1];
 
-        int rand_num_edges = next_int(0, num_edges);
-        for (int j = 0; j < rand_num_edges; j++) {
+        int dx = from->x - to->x;
+        int dy = from->y - to->y;
+        int dist = (int)(std::sqrt(dx * dx + dy * dy));
+
+        from->add_edge(to->id, dist);
+    }
+
+    for (Vertex* from : vertex_list) {
+        int max_additional = num_edges - (int)from->edges.size();
+        int edges_to_add = next_int(0, max_additional);
+
+        for (int j = 0; j < edges_to_add; j++) {
             int target_id = vector_pick_random(built_vertices);
 
-            if (target_id == current_vertex) continue;
+            if (target_id == from->id || from->get_edge(target_id)) continue;
 
             Vertex* target_vertex = graph->get_vertex(target_id);
             if (!target_vertex) continue;
 
-            int dx = x - target_vertex->x;
-            int dy = y - target_vertex->y;
+            int dx = from->x - target_vertex->x;
+            int dy = from->y - target_vertex->y;
             int dist = (int)(std::sqrt(dx * dx + dy * dy));
 
-            Edge* new_edge = new Edge(target_id, dist);
-            new_vertex->add_edge(*new_edge);
+            from->add_edge(target_id, dist);
         }
     }
 

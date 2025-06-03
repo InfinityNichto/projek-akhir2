@@ -1,6 +1,7 @@
 #ifndef GUI_VARS_HPP
 #define GUI_VARS_HPP
 
+#include <SDL_mixer.h>
 #include "imgui.h"
 #include <GLFW/glfw3.h>
 #include <utils.hpp>
@@ -10,6 +11,7 @@
 struct Rect;
 
 inline static Graph* current_graph = new Graph();
+inline static Mix_Chunk* bad_apple_music;
 
 struct GuiVars {
     inline static GLFWwindow* glfw_window = nullptr;

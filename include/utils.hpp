@@ -32,7 +32,15 @@ struct Utils {
     }
 
     template<typename T> inline static T vector_pick_random(std::vector<T>& vec) {
+        if (0 > vec.size() - 1) return vec[0];
         return vec[Utils::next_int(0, vec.size() - 1)];
+    }
+
+    template <typename T> inline static std::vector<T> vector_pick_n_random(const std::vector<T>& vec, int n) {
+        std::vector<T> copy = vec;
+        std::random_shuffle(copy.begin(), copy.end());
+        if (n > copy.size()) n = copy.size();
+        return std::vector<T>(copy.begin(), copy.begin() + n);
     }
 
     template <typename... Args> inline static std::string build_str(Args... args) {

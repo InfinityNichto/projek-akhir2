@@ -23,14 +23,17 @@ set(IMGUI_SOURCES
 
 find_package(OpenGL REQUIRED)
 find_package(glfw3 REQUIRED)
+find_package(SDL2 REQUIRED)
+find_library(SDL2_MIXER_LIBRARY SDL2_mixer)
 
 add_executable(${PROJECT_NAME} ${PROJECT_SOURCES} ${IMGUI_SOURCES})
 target_include_directories(${PROJECT_NAME} PRIVATE
 	./include/
 	./imgui/
 	./imgui/backends
+    ./tmp/rapidjson/include/
 	${GLAD_INC}
 )
-target_link_libraries(${PROJECT_NAME} OpenGL::GL glfw)
+target_link_libraries(${PROJECT_NAME} OpenGL::GL glfw SDL2::SDL2 ${SDL2_MIXER_LIBRARY})
 target_sources(${PROJECT_NAME} PRIVATE ${GLAD_SRC})
 
